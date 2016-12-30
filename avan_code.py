@@ -5,11 +5,7 @@ def stringtoint(input_string):
     print(type(num_list), type(num_list[1]))
     return num_list
 
-#def inttodec(input_int):
-test_string = '2 5 6 7 123 252'
+def inttodec(input_int):
+    output_dec = float(input_int)
+    return output_dec
 
-print(test_string)
-
-
-
-print(stringtoint(test_string))
